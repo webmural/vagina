@@ -1,0 +1,20 @@
+::selection {
+  background: hotpink;
+  color: black;
+}
+
+:root {
+  background: #212;
+  color: silver;
+}
+
+:any-link {
+  color: violet;
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    background: #201;
+    color: gainsboro;
+  }
+}

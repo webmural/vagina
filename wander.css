@@ -1,0 +1,20 @@
+::selection {
+  background: indigo;
+  color: pink;
+}
+
+:root {
+  background: silver;
+  color: #212;
+}
+
+:any-link {
+  color: indigo;
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    background: gainsboro;
+    color: #201;
+  }
+}

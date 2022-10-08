@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 800 800">
+  <title>moon</title>
+  <rect fill="black" width="100%" height="100%" />
+  <circle r="250" fill="silver" cx="400" cy="400" />
+</svg>

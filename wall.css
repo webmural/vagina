@@ -1,0 +1,53 @@
+:root {
+  font-family: sans-serif;
+  font-size: calc(1em + 2vmin + 3vmax);
+}
+
+:any-link {
+  font-size: max(0.5rem, 44px);
+}
+
+:focus {
+  outline-style: dashed;
+  outline-width: thick;
+}
+
+body {
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+figure {
+  margin: auto;
+  padding-block-end: 3rem;
+}
+
+data::first-letter {
+  font-size: 1.618em;
+}
+
+@media (min-width: 50em) {
+  data {
+    letter-spacing: 0.618em;
+  }
+}
+
+blockquote {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  font-size: 2em;
+  font-weight: bold;
+  justify-content: center;
+  margin-block-start: 33vh;
+  margin-block-end: 33vh;
+}
+
+figcaption {
+  max-width: 10em;
+  position: absolute;
+  top: 100vh;
+  padding: 5vmin;
+  font-family: monospace;
+  font-size: .5rem;
+}

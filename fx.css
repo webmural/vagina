@@ -1,0 +1,34 @@
+::selection {
+  background: deepskyblue;
+  color: #101;
+}
+
+.fx {
+  color: #101;
+  background-color: #bae;
+  background-image: radial-gradient(
+    #bae,
+    mediumpurple,
+    chocolate,
+    rosybrown,
+    violet,
+    plum,
+    orchid,
+    peachpuff
+  );
+}
+
+@media (prefers-color-scheme: dark) {
+  .fx {
+    color: linen;
+    background-color: darkmagenta;
+    background-image: radial-gradient(
+      maroon,
+      darkviolet,
+      darkorchid,
+      darkmagenta,
+      indigo,
+      purple
+    );
+  }
+}

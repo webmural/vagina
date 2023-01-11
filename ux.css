@@ -1,0 +1,30 @@
+:root {
+  font-family: fantasy;
+  font-size: max(3ex, 3vmax);
+}
+
+:focus {
+  outline-style: groove;
+  outline-width: medium;
+}
+
+body {
+  margin: auto;
+  min-height: 300vh;
+  overflow-wrap: anywhere;
+}
+
+figure {
+  margin: auto;
+  padding-block-end: 3rem;
+}
+
+
+figcaption {
+  max-width: 10em;
+  position: absolute;
+  top: 100vh;
+  padding: 5vmin;
+  font-family: monospace;
+  font-size: .5rem;
+}

@@ -3,6 +3,10 @@
   color: #101;
 }
 
+:focus {
+  outline-color: currentColor;
+}
+
 .fx {
   color: #101;
   background-color: #bae;

@@ -4,27 +4,35 @@
 }
 
 :focus {
-  outline-style: groove;
-  outline-width: medium;
+  outline-style: dotted;
+  outline-width: thick;
 }
 
 body {
   margin: auto;
-  min-height: 300vh;
   overflow-wrap: anywhere;
 }
 
 figure {
+  align-content: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
   margin: auto;
-  padding-block-end: 3rem;
+  min-height: 300vh;
 }
 
-
-figcaption {
-  max-width: 10em;
-  position: absolute;
-  top: 100vh;
-  padding: 5vmin;
-  font-family: monospace;
-  font-size: .5rem;
+.life {
+  border-radius: 100%;
+  box-sizing: border-box;
+  cursor: crosshair;
+  display: flow-root;
+  flex-basis: 100%;
+  font-weight: bold;
+  min-height: 300vh;
+  margin: 2em;
+  padding: 3em;
+  text-align: center;
+  text-decoration-style: wavy;
 }
